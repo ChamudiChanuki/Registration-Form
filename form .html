@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="form.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+	         <form method="POST" action="" name="myform" >
+	         		<div>
+	         			<h3 style="margin-left: 36px;">Student Information System</h3>
+	         		</div>
+
+	             	<div id="id_div">
+		                  <label><b>ID:</b></label> 
+		                  <input style="margin-left: 62px;" type="number" name="id" id="myid" class="textInput">
+		                  <b><div id="id_error" style="text-align: center;"></div></b>
+	              	</div>
+
+	              	<div id="username_div">
+		               	  <label><b>Username:</b></label>  
+		               	  <input style="margin-left: 1px;" type="text" name="username" id="myname" class="textInput">
+		               	  <b><div id="name_error" style="text-align: center;"></div></b>
+	             	</div>
+
+	             	<div id="email_div">
+		               	  <label><b>Email:</b></label> 
+		               	  <input style="margin-left: 36px;" type="email" id="myemail" name="email" class="textInput">
+		               	  <b><div id="email_error" style="text-align: center;"></div></b>
+	             	</div>
+
+	             	<div id="address_div">
+		               	  <label><b>Address:</b></label> 
+		               	  <input style="margin-left: 15px;" type="text" id="myaddress" name="address" class="textInput">
+		                  <b><div id="address_error" style="text-align: center;"></div></b>
+	             	</div>
+
+	             	<div style="margin-left: 123px;">
+	                 	<input type="reset" onclick="return addRow()"  name="register" value="Save">
+	                 	<input type="reset"  name="cancel" value="Cancel">
+	                </div>
+	         </form>
+	</div>
+
+
+	<div class="mytable">
+        <table id="table" name="table" border="1" align="center">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>  
+
+
+		<script src="form.js">	
+		</script>
+
+
+	</body>
+</html>

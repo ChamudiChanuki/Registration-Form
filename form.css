@@ -1,0 +1,102 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: purple;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+#wrapper 
+{
+  width: 30%;
+  margin: 130px auto;
+  padding: 10px;
+  background-color: rgba(200, 200, 200, .5);
+  border: 5px solid #D7FBFF;
+}
+
+form 
+{
+  margin: 30px auto;
+  margin-left: 30px;
+}
+
+.textInput 
+{
+  border: none;
+  height: 28px;
+  margin: 2px;
+  border: 1px solid #6B7363;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 70%;
+}
+
+.textInput:focus 
+{
+  outline: none;
+}
+
+
+#wrapper input[type=number] 
+{
+			    width: 50%;
+			    height:3px; 
+			    padding: 15px 20px;
+			    margin: 5px 0; 
+			    border-radius: 5px;
+}
+
+#wrapper input[type=text] 
+{
+			    width: 50%;
+			    height:3px; 
+			    padding: 15px 20px;
+			    margin: 5px 0; 
+			    border-radius: 5px;
+}
+
+#wrapper input[type=email] 
+{
+			    width: 50%;
+			    height:3px; 
+			    padding: 15px 20px;
+			    margin: 5px 0; 
+			    border-radius: 5px;
+}
+
+#wrapper input[type=submit]
+{
+				width: 90px;
+				border: none;
+				margin-top: 5px;
+				font-weight:bold; 
+				background:#228B22; 
+				border:0.5px solid green; 
+				color:white; 
+				border-radius: 5px;
+  				padding: 12px;
+}
+
+#wrapper input[type=reset]
+{
+				width: 90px;
+				border: none;
+				margin-top: 5px;
+				font-weight:bold; 
+				background:#E00128; 
+				border:0.5px solid white; 
+				color:white; 
+				border-radius: 5px;
+  				padding: 12px;
+}
+
+.mytable
+{
+	  width: 60%;
+	  margin: 100px auto;
+	  padding: 10px;
+	  background-color: rgba(200, 200, 200, .5);
+	  border: 5px solid #D7FBFF;
+}
